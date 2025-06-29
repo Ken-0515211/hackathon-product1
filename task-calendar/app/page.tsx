@@ -362,7 +362,7 @@ export default function TaskCalendar() {
                         追加
                       </Button>
                     </DialogTrigger>
-                    <DialogContent>
+                    <DialogContent className = "max-h-[90vh] overflow-y-auto">
                       <DialogHeader>
                         <DialogTitle>{editingTask ? "タスクを編集" : "タスクを追加"}</DialogTitle>
                         <DialogDescription>
